@@ -1,0 +1,16 @@
+li:hover {
+background-color: lightblue;
+}
+.img-banner {
+    width: 300px;
+    height: 300px;
+}
+
+.ipad{
+    width: 300px;
+    height: 200px;
+}
+.mob{
+    width: 300px;
+    height: 400px;
+}

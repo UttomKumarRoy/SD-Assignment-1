@@ -3,9 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Electronics World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/768655be20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test Github</h1>
+    <section class="container bg-secondary text-primary">
+        <div class="row">
+            <div class="col navbar">
+                <a style="display: inline-block;" class="navbar-brand" href="#">
+                    <img src="./images/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+                    Electronics World
+                </a>
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> <br> <br> <br>
+    <section class="container bg-light">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <h1>Watch</h1> <br>
+                                <p>This is a nice watch. You can buy it.</p> <br>
+                                <button type="button" class="btn btn-primary">Shop Now</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6"><img src="./images/Iphone 14 pro 1-1.png" alt="Los Angeles" class="image-fluid img-banner" style="width:100%">
+                    </div>
+                </div>
+               
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <h1>Mobile</h1> <br>
+                                <p>This mobile has an awesome camera. Enjoy it.</p> <br>
+                                <button type="button" class="btn btn-primary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6"><img src="./images/Iphone 14 pro 1-2.png" alt="Los Angeles" class="image-fluid img-banner" style="width:100%">
+                    </div>
+                </div>
+               
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <h1>Camera</h1> <br>
+                                <p>It is a modern camera. Today's fashion.</p> <br>
+                                <button type="button" class="btn btn-primary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6"><img src="./images/Iphone 14 pro 1-3.png" alt="Los Angeles" class="image-fluid img-banner" style="width:100%">
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-black"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-black"></span>
+            </button>
+          </div>
+    </section> <br> <br> <br>
+
+    <section class="bg-primary">
+        <div class="row text-light">
+            <div class="col">
+                <div class="row bg-success ">
+                    <div class="col ">
+                        <img src="./images/ipad.png" class="image-fluid ipad" alt="ipad">
+                    </div>
+                    <div class="col">
+                        <h1>Ipad 9</h1>
+                        <p>This is nice ipad. It has 3 years warranty.</p>
+                    </div>
+                </div>
+                <div class="row bg-info">
+                    <div class="col">
+                        <h1>Iphone 14 Pro</h1>
+                        <p>This is awesome. It has 4 years warranty.</p>
+                    </div>
+                    <div class="col">
+                        <img src="./images/Iphone 14 pro 1.png" class="image-fluid ipad" alt="ipad">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h1>Macbook Air</h1>
+                        <p>This has a low cost to buy. Awesome features has here.</p>
+                        <button type="button" class="btn btn-danger">Shop Now</button>
+                    </div>
+                    <div class="col">
+                        <img src="./images/Logo.png" class="image-fluid mob" alt="mobile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+  <br> <br> <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
